@@ -4,7 +4,14 @@
 
 
 import Layout from "../components/Layout";
+import Works from "../components/Works";
+import CertifiedSection from "../components/CertifiedSection";
 
-const Index = () => <Layout>Welcome to WHATABYTE!</Layout>;
+
+
+const Index = () => <Layout>
+    <Works  />
+    <CertifiedSection />
+</Layout>;
 
 export default Index;
