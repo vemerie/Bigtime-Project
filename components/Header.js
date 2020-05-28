@@ -7,7 +7,7 @@ import Button from "./Button"
 
 const headerStyle = {
     position: "relative",
-    background: "url(https://images.pexels.com/photos/1264210/pexels-photo-1264210.jpeg?auto=compress&cs=tinysrgb&dpr=4&w=500)",
+    background: "url(https://images.pexels.com/photos/1595233/pexels-photo-1595233.jpeg?auto=compress&cs=tinysrgb&dpr=4&w=500)",
     // width: "2309px",
     height: "700px",
     backgroundRepeat:"no-repeat",
@@ -18,7 +18,7 @@ const headerStyle = {
     fontSize: "30px",
     lineHeight: "36px",
     color: "white",
-    backgroundPosition:"left",
+    backgroundPosition:"left top",
     opacity:1
   };
 

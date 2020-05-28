@@ -6,12 +6,15 @@
 import Layout from "../components/Layout";
 import Works from "../components/Works";
 import CertifiedSection from "../components/CertifiedSection";
+import Services from "../components/Services";
+
 
 
 
 const Index = () => <Layout>
     <Works  />
     <CertifiedSection />
+    <Services />
 </Layout>;
 
 export default Index;
