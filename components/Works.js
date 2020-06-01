@@ -14,14 +14,14 @@ const headerStyle={
 
 
 const Works = () => (
-    <div style={{background:"#301929", paddingBottom:"4rem"}}>
+    <div style={{background:"#0A0F14",minHeight:"800px", paddingBottom:"4rem"}}>
    <div className="container my-5" >
-       <h1 className="my-5">Discover Our Works</h1>
-       <div className="row">
-           <div className="col"><WorkSub text={text} /></div>
-           <div className="col"><WorkSub text={text} /></div>
-            <div className="col"><WorkSub text={text} /></div>
-            <div className="col"><WorkSub text={text} /></div>
+       <h1 className="" style={{ marginBottom:"6rem", marginTop:"4rem"}}>Discover Our Works</h1>
+       <div className="row ">
+           <div className="col-md-3"><WorkSub text={text} /></div>
+           <div className="col-md-3"><WorkSub text={text} /></div>
+            <div className="col-md-3"><WorkSub text={text} /></div>
+            <div className="col-md-3"><WorkSub text={text} /></div>
 
        </div>
    </div>

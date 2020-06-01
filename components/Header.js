@@ -9,7 +9,7 @@ const headerStyle = {
     position: "relative",
     background: "url(https://images.pexels.com/photos/1595233/pexels-photo-1595233.jpeg?auto=compress&cs=tinysrgb&dpr=4&w=500)",
     // width: "2309px",
-    height: "700px",
+    minHeight: "700px",
     backgroundRepeat:"no-repeat",
     backgroundSize:"content",
     fontFamily: "Alegreya Sans",

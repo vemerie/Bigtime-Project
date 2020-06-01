@@ -9,8 +9,20 @@ const text= {
     pix: "https://images.pexels.com/photos/256737/pexels-photo-256737.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
 }
 const ContainerStyle={
-    
-} 
+    position: "relative",
+    background: "url( https://images.pexels.com/photos/818992/pexels-photo-818992.jpeg?auto=compress&cs=tinysrgb&dpr=4&w=500)",
+    // width: "2309px",
+    height: "800px",
+    backgroundRepeat:"no-repeat",
+    backgroundSize:"content",
+    fontFamily: "Alegreya Sans",
+    fontFtyle: "normal",
+    fontWeight: "normal",
+    fontSize: "30px",
+    lineHeight: "36px",
+    color: "white",
+    backgroundPosition:"left top",
+    opacity:1} 
 
 
 const Service = () => (

@@ -11,7 +11,7 @@ const sectionStyle ={
     position:"relative",
     backgroundImage:"url(/Vector.svg)",
     backgroundRepeat:"no-repeat",
-    height:"700px",
+    height:"800px",
     backgroundSize:"50%",
     backgroundPosition:"-30% 140%",
 
@@ -32,7 +32,7 @@ const  buttonStyle= {
 
 const CertifiedSection = () => (
     <div style={sectionStyle}>
-   <div className="container" style={{marginTop:"10rem"}} >
+   <div className="container" style={{marginTop:"15rem"}} >
        <h1 className="my-5 text-center">Become a certified photographer</h1>
        <div className="col-md-8 mx-auto">
        <p className="text-center" style={{fontSize:"13px"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>

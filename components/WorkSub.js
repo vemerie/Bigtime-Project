@@ -20,7 +20,7 @@ const buttonStyle ={
 
   }
 const WorkSub = ({text}) => (
-    <Card style={{ width: '16rem', backgroundColor:"#301929" }}>
+    <Card style={{ backgroundColor:"#301929" }}>
     <a href={text.link}><Card.Img variant="top" src={text.pix} /></a>
     <Card.Body>
     <Card.Title>{text.title}</Card.Title>
