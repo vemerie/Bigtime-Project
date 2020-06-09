@@ -10,12 +10,12 @@ const text= {
 }
 const ContainerStyle={
     position: "relative",
-    background: "url( https://images.pexels.com/photos/818992/pexels-photo-818992.jpeg?auto=compress&cs=tinysrgb&dpr=4&w=500)",
+    background: "url( https://images.pexels.com/photos/1644888/pexels-photo-1644888.jpeg?auto=compress&cs=tinysrgb&dpr=4&w=500",
     // width: "2309px",
     height: "800px",
     backgroundRepeat:"no-repeat",
     backgroundSize:"content",
-    fontFamily: "Alegreya Sans",
+    fontFamily: "Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;",
     fontFtyle: "normal",
     fontWeight: "normal",
     fontSize: "30px",
@@ -26,7 +26,7 @@ const ContainerStyle={
 
 
 const Service = () => (
-    <div style={ContainerStyle}>
+    <div id="service"  style={ContainerStyle}>
    <div className="container my-5" >
        <h1 className="my-5 text-center">Service</h1>
        <div className="row">

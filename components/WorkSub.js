@@ -2,7 +2,9 @@
 import React, { Component } from 'react'
 import Card from "react-bootstrap/Card";
 import Button from "./Button"
-import Col from "react-bootstrap/Col"
+import Col from "react-bootstrap/Col";
+import { Fade } from 'react-awesome-reveal';
+
 
 const buttonStyle ={
     display:"block",
@@ -20,6 +22,7 @@ const buttonStyle ={
 
   }
 const WorkSub = ({text}) => (
+<Fade>
     <Card style={{ backgroundColor:"#301929" }}>
     <a href={text.link}><Card.Img variant="top" src={text.pix} /></a>
     <Card.Body>
@@ -30,5 +33,6 @@ const WorkSub = ({text}) => (
       <Button buttonStyle={buttonStyle} text="See more"/>
     </Card.Body>
   </Card>
+  </Fade>
   );
   export default WorkSub;

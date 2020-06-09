@@ -1,6 +1,10 @@
 // components/Layout.js
 
 import Header from "./Header";
+import NavBar from "./NavBar";
+import useSticky from "../hooks/useSticky"
+
+
 
 const layoutStyle = {
   display: "flex",
@@ -17,14 +21,13 @@ const contentStyle = {
   flexDirection: "column"
 };
 
-const Layout = props => (
-  <div className="Layout" style={layoutStyle}>
-
-    <Header />
-    <div className="Content" style={contentStyle}>
+const Layout = props => {
+  return(<div className="Layout" style={layoutStyle}>
+    <NavBar  />
+    <div className="Content"  style={contentStyle}>
       {props.children}
     </div>
-  </div>
-);
+  </div>)
+};
 
 export default Layout;

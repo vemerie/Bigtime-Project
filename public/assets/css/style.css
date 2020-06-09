@@ -31,7 +31,7 @@ opacity: 1;}
 .navbar{
     font-size: 14px;
     /* background-color: #FD1B03; */
-    background-color: rgba(15, 15, 15, 0.667);
+    background-color: black;
     letter-spacing: 6px;
     font-weight: 700;
     word-spacing: 70px;
@@ -45,11 +45,6 @@ opacity: 1;}
 }
 a{
     color: red;
-}
-
-.navbar-expand .navbar-nav{
-   
-
 }
 
 .navBarContainer{

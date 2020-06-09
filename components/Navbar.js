@@ -4,6 +4,8 @@ import Row from 'react-bootstrap/Row';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import FormControl from 'react-bootstrap/FormControl';
+import Link from 'next/link'
+
 
 
 const navBarStyle = {
@@ -18,15 +20,23 @@ const navBarStyle = {
   
   const NavBar = () => (
     <div className="navBarContainer" style={navBarStyle}>
-    <Navbar className="navBarContainer" bg="" variant="dark" className="navbar">
+    <Navbar expand="lg" fixed="top"  variant="dark">
       <Navbar.Brand href="#home"><img src="/logo.png" style={logoStyle}/></Navbar.Brand>
+
+      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Collapse id="basic-navbar-nav">
+
       <Nav className="ml-auto">
         <Nav.Link href="#home">Home</Nav.Link>
-        <Nav.Link href="#features">Work</Nav.Link>
-        <Nav.Link href="#pricing">Training</Nav.Link>
-        <Nav.Link href="#pricing">Contact</Nav.Link>
-        <Nav.Link href="#pricing">About</Nav.Link>
+        <Nav.Link href="#work">Work</Nav.Link>
+        <Nav.Link href="#training">Training</Nav.Link>
+        <Nav.Link href="#contact">Contact</Nav.Link>
+        <Nav.Link href="#service">Sevice</Nav.Link>
+        <Nav.Link href="#gallery">Gallery</Nav.Link>
+        
       </Nav>
+      </Navbar.Collapse>
+
     </Navbar>
     </div>
 

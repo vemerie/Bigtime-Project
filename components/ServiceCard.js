@@ -2,6 +2,8 @@
 import React, { Component } from 'react'
 import WorkSub from "./WorkSub";
 import Button from './Button';
+import { Fade } from 'react-awesome-reveal';
+
 
 const text= {
     title:"Great up",
@@ -21,7 +23,7 @@ const buttonStyle ={
   }
 
 const ServiceCard = () => (
-    <div style={{ border:"1px solid white", padding:"3rem 1rem 1rem 1rem"}}>
+    <Fade><div style={{ border:"1px solid white", padding:"3rem 1rem 1rem 1rem"}}>
         <p className="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
         <Button buttonStyle={buttonStyle} text="Photography" /> 
 
@@ -34,5 +36,6 @@ const ServiceCard = () => (
         <p className="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
         <Button buttonStyle={buttonStyle} text="Model Works" /> 
    </div>
+   </Fade>
   );
   export default ServiceCard;
