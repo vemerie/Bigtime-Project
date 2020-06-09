@@ -1,0 +1,1 @@
+{"ast":null,"code":"var __jsx = React.createElement;\nimport React, { Component } from 'react';\n\nvar Button = function Button(_ref) {\n  var buttonStyle = _ref.buttonStyle,\n      text = _ref.text;\n  return __jsx(\"button\", {\n    style: buttonStyle\n  }, text);\n};\n\nexport default Button;","map":null,"metadata":{},"sourceType":"module"}

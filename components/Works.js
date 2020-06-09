@@ -11,9 +11,7 @@ const text= {
     description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
     pix: "https://images.pexels.com/photos/256737/pexels-photo-256737.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
 }
-const headerStyle={
-    
-} 
+
 
 
 const Works = () => (
