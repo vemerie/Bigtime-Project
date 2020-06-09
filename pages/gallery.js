@@ -99,7 +99,6 @@ const IMAGES =
 
 
 const GalleryPage = () => (
-    // <NavBar />
     <div id="gallery" >
         <div className="container">
         <h1 className="my-5">Gallery</h1>

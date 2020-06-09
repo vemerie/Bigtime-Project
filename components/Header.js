@@ -58,6 +58,8 @@ const BgElement = Element.BgElement;
   const Header = () => {
     return(
     <div  className="Header" style={headerStyle}>
+          <NavBar  />
+
          <div className="container mt-5">
             <div className="row">
               <div className="col-md mt-5">
