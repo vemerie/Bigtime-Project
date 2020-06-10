@@ -1,7 +1,6 @@
 // components/Header.js
 
 import React, { Component } from 'react'
-import NavBar from "./NavBar";
 import Button from "./Button"
 import BannerAnim from 'rc-banner-anim';
 import QueueAnim from 'rc-queue-anim';
