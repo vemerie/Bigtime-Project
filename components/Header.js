@@ -1,6 +1,7 @@
 // components/Header.js
 
 import React, { Component } from 'react'
+import NavBar from "./Navbar";
 import Button from "./Button"
 import BannerAnim from 'rc-banner-anim';
 import QueueAnim from 'rc-queue-anim';
@@ -57,7 +58,7 @@ const BgElement = Element.BgElement;
   const Header = () => {
     return(
     <div  className="Header" style={headerStyle}>
-          {/* <NavBar  /> */}
+          <NavBar  />
 
          <div className="container mt-5">
             <div className="row">

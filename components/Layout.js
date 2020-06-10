@@ -1,7 +1,7 @@
 // components/Layout.js
 
 import Header from "./Header";
-// import NavBar from "./NavBar";
+import NavBar from "./Navbar";
 
 
 
@@ -22,7 +22,7 @@ const contentStyle = {
 
 const Layout = props => {
   return(<div className="Layout" style={layoutStyle}>
-    {/* <NavBar /> */}
+    <NavBar />
     <div className="Content"  style={contentStyle}>
       {props.children}
     </div>
