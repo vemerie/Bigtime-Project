@@ -11,6 +11,7 @@ import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import GalleryPage from "../pages/gallery";
+// import  '../hooks/live_dashboard_copy'; 
 
 
 
@@ -20,10 +21,12 @@ import GalleryPage from "../pages/gallery";
 
 const Index = () => <Layout>
     <Header />
-    <Works  />
     <Services id="service"/>
-    <GalleryPage />
     <CertifiedSection />
+    <Works  />
+
+    <GalleryPage />
+   
     <Contact id="contact"/>
     <Footer />
 </Layout>;

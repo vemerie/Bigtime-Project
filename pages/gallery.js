@@ -84,6 +84,38 @@ const IMAGES =
     tags: [{value: "Ocean", title: "Ocean"}, {value: "People", title: "People"}],
     caption: "Boats (Jeshu John - designerspics.com)"
 },
+{
+    src: "https://c2.staticflickr.com/9/8817/28973449265_07e3aa5d2e_b.jpg",
+    thumbnail: "https://c2.staticflickr.com/9/8817/28973449265_07e3aa5d2e_n.jpg",
+    thumbnailWidth: 320,
+    thumbnailHeight: 174,
+    isSelected: false,
+    caption: "After Rain (Jeshu John - designerspics.com)"
+},
+{
+    src: "https://images.pexels.com/photos/667200/pexels-photo-667200.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    thumbnail: "https://images.pexels.com/photos/667200/pexels-photo-667200.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    thumbnailWidth: 320,
+    thumbnailHeight: 212,
+    tags: [{value: "Ocean", title: "Ocean"}, {value: "People", title: "People"}],
+    caption: "Boats (Jeshu John - designerspics.com)"
+},
+
+{
+    src: "https://images.pexels.com/photos/949193/pexels-photo-949193.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    thumbnail: "https://images.pexels.com/photos/949193/pexels-photo-949193.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    thumbnailWidth: 320,
+    thumbnailHeight: 212
+},
+
+{
+    src: "https://images.pexels.com/photos/3655782/pexels-photo-3655782.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    thumbnail: "https://images.pexels.com/photos/3655782/pexels-photo-3655782.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    thumbnailWidth: 320,
+    thumbnailHeight: 212,
+    tags: [{value: "Ocean", title: "Ocean"}, {value: "People", title: "People"}],
+    caption: "Boats (Jeshu John - designerspics.com)"
+},
 
 {
     src: "https://images.pexels.com/photos/667200/pexels-photo-667200.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
@@ -93,6 +125,14 @@ const IMAGES =
     tags: [{value: "Ocean", title: "Ocean"}, {value: "People", title: "People"}],
     caption: "Boats (Jeshu John - designerspics.com)"
 },
+
+{
+    src: "https://images.pexels.com/photos/949193/pexels-photo-949193.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    thumbnail: "https://images.pexels.com/photos/949193/pexels-photo-949193.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    thumbnailWidth: 320,
+    thumbnailHeight: 212
+},
+
 ]
 
 
@@ -100,8 +140,8 @@ const IMAGES =
 
 const GalleryPage = () => (
     <div id="gallery" >
-        <div className="container">
-        <h1 className="my-5">Gallery</h1>
+        <div className="container-fluid">
+        <h1 className="mb-5 text-center">Gallery</h1>
 
         <Gallery images={IMAGES} />
         </div>

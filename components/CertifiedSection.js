@@ -41,7 +41,7 @@ const CertifiedSection = () => (
        <p className="text-center" style={{fontSize:"13px"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
        </div>
 
-       <Button  text="Get Started" buttonStyle={buttonStyle} />
+       <Button  link="training" text="Get Started" buttonStyle={buttonStyle} />
    </div>
    </div>
   );

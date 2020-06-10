@@ -2,7 +2,6 @@
 
 import Header from "./Header";
 import NavBar from "./NavBar";
-import useSticky from "../hooks/useSticky"
 
 
 
@@ -23,6 +22,7 @@ const contentStyle = {
 
 const Layout = props => {
   return(<div className="Layout" style={layoutStyle}>
+    <NavBar />
     <div className="Content"  style={contentStyle}>
       {props.children}
     </div>
